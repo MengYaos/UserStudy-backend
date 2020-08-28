@@ -1,2 +1,2 @@
 # UserStudy-backend
-An user study backend, used SpringBoot 
+An user study backend, used SpringBoot and Mybatis .
