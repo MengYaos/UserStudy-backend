@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.firsts.survey.mapper.ResultInfoMapper">
+
+    <insert id="insertResult" parameterType="com.firsts.survey.domain.dto.ResultInfoDto">
+       insert into result_info (ID,PHASE_FLAG,RENDERING_SEQUENCE,CONTENT_INTEGRITY,STYLIZATION_LEVEL,OVERALL_QUALITY,CREATE_TIME)
+       values (#{id},#{flag},#{renderingSequence},#{contentIntegrity},#{stylizationLevel},#{overallQuality},#{createTime})
+    </insert>
+</mapper>
